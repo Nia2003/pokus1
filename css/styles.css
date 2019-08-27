@@ -1,0 +1,111 @@
+*{
+    color:blueviolet;
+    margin: 2xp;
+    padding: 2xp;
+    background-color: black;
+    text-align: center
+}
+body {color: rgb rgb(138, 7, 190);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 0px;
+}
+div {
+    min-height: 100vh;
+    width: 100vw;
+    border: 1px solid white;
+}
+p, li, td {
+    font-size: 2em
+}
+h1{
+    font-size: 6em
+}
+
+th {
+    padding-left: 2em;
+    padding-right: 2em; 
+}
+
+img {
+    display: flex;
+    padding: 20 xp;
+    margin: 0 auto;
+    border-radius: 130 xp;
+}
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: rgb(122, 221, 238);
+  padding: 5px;
+  width: 90px;
+  height: 100px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: rgb(65, 10, 90);
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+ul {
+    list-style: none
+}
+
+table {: center
+}
+#Kytkysedělína: {
+    list-style: ellipse;
+    padding: 0;
+    font-size: 3em
+}
+
+li.item {
+    padding: 0.6em;
+}
+
+.skleníkové {
+    color: blueviolet
+}
+
+.zahradní {
+    color: whitesmoke
+}
+
+.domácí {
+    color: greenyellow
+}
+
+li.flex-item {
+    padding: 2em;
+}
+
+.tulipán, .fialka, .jahoda {
+    color: whitesmoke
+}
+
+li {
+    margin: 0 20px;
+    transition: 1s ease;
+}
+
+li:hover {
+    font-size: 1.2em;
+    transition: 1s ease;
+}
+
+table
